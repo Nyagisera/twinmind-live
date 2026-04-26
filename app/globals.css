@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0d0f12;
+  --surface: #141720;
+  --surface-2: #1c2030;
+  --border: #252a38;
+  --border-2: #2e3547;
+  --text: #e8eaf0;
+  --text-muted: #6b7394;
+  --text-dim: #3d4560;
+  --accent-blue: #4a8fff;
+  --accent-yellow: #f5c542;
+  --accent-green: #3ecf8e;
+  --accent-red: #ff6b6b;
+  --accent-purple: #a78bfa;
+  --font-mono: 'IBM Plex Mono', monospace;
+  --font-sans: 'Inter', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+#__next {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-2);
+  border-radius: 2px;
+}
+
+button {
+  font-family: var(--font-sans);
+  cursor: pointer;
+}
+
+textarea, input {
+  font-family: var(--font-sans);
+}
